@@ -1,0 +1,178 @@
+main {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Public Sans", sans-serif;
+}
+
+
+.content .content-container {
+	border: none;
+	margin: 20px;
+	padding: 15px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+}
+
+.nhanHang {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.tenKM {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.moTa {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.phanTramGiam {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.ngayBD {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.ngayKT {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+
+main {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Public Sans", sans-serif;
+}
+
+.content .content-container {
+	margin: 0 auto;
+}
+
+.content .list-header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	margin-bottom: 40px;
+	/* ======================HEADER======================== */
+	/* ===================BREADCRUMB====================*/
+	/* ====================== CUSTOM BUTTON =========================== */
+}
+.content .list-header .heading {
+	margin: 0px 0px 8px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+.content .list-header .breadcrumb__item {
+	cursor: pointer;
+}
+
+.content .list-header .breadcrumb__divider {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #919eab;
+}
+
+.content .list-header .breadcrumb__link {
+	text-decoration: none;
+	color: #212b36;
+	cursor: pointer;
+}
+
+.content .list-header .breadcrumb__link:hover {
+	text-decoration: underline;
+	-webkit-text-decoration-color: #212b36;
+	text-decoration-color: #212b36;
+	color: #212b36;
+}
+
+.content .list-header .breadcrumb {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 12px;
+}
+
+.content .list-header .btn--add {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+	outline: 0px;
+	border: 0px;
+	margin: 0px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-decoration: none;
+	font-weight: 700;
+	line-height: 1.71429;
+	font-size: 0.875rem;
+	text-transform: capitalize;
+	font-family: "Public Sans", sans-serif;
+	min-width: 64px;
+	padding: 6px 16px;
+	border-radius: 8px;
+	-webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+		0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms
+		cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-box-shadow 250ms
+		cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+		border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms
+		cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-box-shadow 250ms
+		cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms
+		cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms
+		cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms
+		cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms
+		cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-box-shadow 250ms
+		cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	color: white;
+	background-color: #00ab55;
+	-webkit-box-shadow: rgba(0, 171, 85, 0.24) 0px 8px 16px 0px;
+	box-shadow: rgba(0, 171, 85, 0.24) 0px 8px 16px 0px;
+	gap: 12px;
+}
